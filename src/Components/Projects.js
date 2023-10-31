@@ -20,10 +20,10 @@ export default function Projects() {
     
     return (
         <section className='h-screen flex flex-col justify-center' id='projects-section'>
-            <div className="p-5 md:p-20">
-                <h1 className="text-sky-500 font-bold text-5xl text-center p-5 md:mb-10">PROJECTS</h1>
+            <div className="p-5 lg:p-20">
+                <h1 className="text-sky-500 font-bold text-3xl md:text-5xl text-center p-5 xl:mb-10">PROJECTS</h1>
                 <div className='overflow-x-scroll md:overflow-auto'>
-                    <div className="p-5 grid grid-rows-4 grid-flow-col gap-4 w-max sm:w-auto sm:grid-flow-row sm:grid-cols-2 md:grid-cols-3 md:grid-rows-none md:gap-4">
+                    <div className="p-5 grid grid-rows-4 grid-flow-col gap-4 w-max sm:w-auto sm:grid-flow-row sm:grid-cols-2 lg:grid-rows-2 lg:grid-cols-none lg:grid-flow-col lg:gap-4">
                         {projectItems}
                     </div>
                 </div>
